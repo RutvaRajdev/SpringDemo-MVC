@@ -89,6 +89,11 @@
       <artifactId>spring-web</artifactId>
       <version>4.1.6.RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+    </dependency>
     <!--dependency>
       <groupId>HandsOn</groupId>
       <artifactId>[the artifact id of the block to be mounted]</artifactId>
