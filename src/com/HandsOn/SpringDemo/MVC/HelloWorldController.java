@@ -1,7 +1,10 @@
 package com.HandsOn.SpringDemo.MVC;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class HelloWorldController {
@@ -25,9 +28,10 @@ public class HelloWorldController {
 
         theName = theName.toUpperCase();
 
-        String result = "Hey!" + theName;
+        String result = "Hey! " + theName;
 
         model.addAttribute("message", result);
         return "helloworld";
     }
+
 }
