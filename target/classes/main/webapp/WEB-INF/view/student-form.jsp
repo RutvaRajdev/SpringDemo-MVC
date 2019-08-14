@@ -7,14 +7,25 @@
 </head>
 
 <body>
+
 <form:form action="processForm" modelAttribute="student">
 
-    First Name: <form:input path="firstName"/>
+    First Name:
+    <form:input path="firstName"/>
     <br><br>
-    Last Name: <form:input path="lastName"/>
+    Last Name:
+    <form:input path="lastName"/>
     <br><br>
 
-    <input type="submit" value="submit" />
-</form:form>
+    Country:
+    <form:select path="country">
+        <form:option value="India" label="India"/>
+        <form:option value="United States" label="United States"/>
+        <form:option value="Germany" label="Germany"/>
+    </form:select>
+
+
+    <input type="submit" value="submit"/>
+    </form:form>
 </body>
 </html>
