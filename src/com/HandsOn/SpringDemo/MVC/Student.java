@@ -1,5 +1,7 @@
 package com.HandsOn.SpringDemo.MVC;
 
+import java.util.LinkedHashMap;
+
 public class Student {
     public String getFirstName() {
         return firstName;
@@ -11,10 +13,25 @@ public class Student {
 
     private String firstName;
     private String lastName;
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
     private String country;
 
-    public Student() {
+    public LinkedHashMap<String, String> getCountryOptions() {
+        return countryOptions;
+    }
 
+    private LinkedHashMap<String, String> countryOptions;
+
+    public Student() {
+        countryOptions = new LinkedHashMap<String, String>();
+        countryOptions.put("IN", "India");
+        countryOptions.put("USA", "United States");
+        countryOptions.put("DE", "Germany");
+        countryOptions.put("FR", "France");
     }
 
     public void setFirstName(String firstName) {
@@ -29,7 +46,5 @@ public class Student {
         return country;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
+
 }
