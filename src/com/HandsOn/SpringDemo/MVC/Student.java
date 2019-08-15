@@ -14,13 +14,8 @@ public class Student {
     private String firstName;
     private String lastName;
 
-    public String getFavoriteLanguage() {
-        return favoriteLanguage;
-    }
+    private String[] operatingSystems;
 
-    public void setFavoriteLanguage(String favoriteLanguage) {
-        this.favoriteLanguage = favoriteLanguage;
-    }
 
     private String favoriteLanguage;
 
@@ -57,4 +52,19 @@ public class Student {
     }
 
 
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
+    }
+
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
+    }
 }
