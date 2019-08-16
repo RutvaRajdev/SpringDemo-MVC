@@ -20,6 +20,10 @@
     Last Name: <form:input path="lastName" />
 
     <br><br>
+    Zip Code: <form:input path="zipCode" />
+    <form:errors path="zipCode" cssClass="error" />
+
+    <br><br>
     Passes (Min 0, Max 10): <form:input path="passes" />
     <form:errors path="passes" cssClass="error" />
 

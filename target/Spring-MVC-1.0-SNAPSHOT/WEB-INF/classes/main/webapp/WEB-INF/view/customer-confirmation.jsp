@@ -11,6 +11,9 @@
 The customer is confirmed: ${customer.firstName} ${customer.lastName}
 
 <br>
+Zip Code: ${customer.zipCode}
+
+<br>
 Number of passes: ${customer.passes}
 </body>
 </html>
