@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02dd61e8-edd6-4da8-b97b-6591ab9f4107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,37 +41,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding>
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1509#1510#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/student-confirmation.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -80,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -103,6 +72,24 @@
                 <element signature="e#1139#1140#0" expanded="true" />
                 <element signature="e#1177#1178#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -162,7 +149,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" />
         <option value="$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hellowworld.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/helloworld.jsp" />
@@ -178,6 +164,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" />
         <option value="$PROJECT_DIR$/src/com/HandsOn/SpringDemo/MVC/Customer.java" />
+        <option value="$PROJECT_DIR$/src/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml" />
       </list>
     </option>
   </component>
@@ -227,12 +215,6 @@
               <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MVC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,9 +228,12 @@
               <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,18 +359,18 @@
       <updated>1565705561974</updated>
       <workItem from="1565705566610" duration="1927000" />
       <workItem from="1565785913663" duration="21460000" />
-      <workItem from="1565969327787" duration="8834000" />
+      <workItem from="1565969327787" duration="9482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32221000" />
+    <option name="totallyTimeSpent" value="32869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.35927504" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -397,13 +382,13 @@
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.35897437" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.35897437" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
@@ -438,13 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1664">
           <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -589,6 +567,20 @@
             <element signature="e#1139#1140#0" expanded="true" />
             <element signature="e#1177#1178#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
         </state>
       </provider>
     </entry>
