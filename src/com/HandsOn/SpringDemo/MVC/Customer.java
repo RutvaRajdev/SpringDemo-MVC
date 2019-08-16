@@ -15,17 +15,18 @@ public class Customer {
 
     private String lastName;
 
-    public int getPasses() {
+    public Integer getPasses() {
         return passes;
     }
 
-    public void setPasses(int passes) {
+    public void setPasses(Integer passes) {
         this.passes = passes;
     }
 
+    @NotNull(message = "Is required")
     @Min(value = 0, message = "Must be greater or equal to 0")
     @Max(value=10, message = "Maximum 10 allowed")
-    private int passes;
+    private Integer passes;
 
     public String getFirstName() {
         return firstName;
