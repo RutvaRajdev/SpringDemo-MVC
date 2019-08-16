@@ -15,8 +15,13 @@
 <form:form action="processForm" modelAttribute="customer">
     First Name (*): <form:input path="firstName" />
     <form:errors path="firstName" cssClass="error" />
+
     <br><br>
     Last Name: <form:input path="lastName" />
+
+    <br><br>
+    Passes (Min 0, Max 10): <form:input path="passes" />
+    <form:errors path="passes" cssClass="error" />
 
 
     <br><br>

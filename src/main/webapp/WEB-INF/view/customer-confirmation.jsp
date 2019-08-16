@@ -9,5 +9,8 @@
 </head>
 <body>
 The customer is confirmed: ${customer.firstName} ${customer.lastName}
+
+<br>
+Number of passes: ${customer.passes}
 </body>
 </html>
