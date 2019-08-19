@@ -2,6 +2,8 @@ package com.HandsOn.SpringDemo.MVC;
 
 //import com.sun.istack.internal.NotNull;
 
+import com.HandsOn.SpringDemo.MVC.Validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -28,6 +30,9 @@ public class Customer {
     @Max(value=10, message = "Maximum 10 allowed")
     private Integer passes;
 
+    @CourseCode
+    private String courseCode;
+
     public String getFirstName() {
         return firstName;
     }
@@ -50,5 +55,13 @@ public class Customer {
 
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

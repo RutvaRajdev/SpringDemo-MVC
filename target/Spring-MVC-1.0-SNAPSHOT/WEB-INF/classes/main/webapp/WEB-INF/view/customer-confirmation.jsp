@@ -15,5 +15,9 @@ Zip Code: ${customer.zipCode}
 
 <br>
 Number of passes: ${customer.passes}
+
+<br>
+Course Code: ${customer.courseCode}
+
 </body>
 </html>
